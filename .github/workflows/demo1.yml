@@ -8,8 +8,8 @@ on:
       - main
       - 'dev-*'  # == dev-new | dev-this-is-new
       - feat/**  # == feat/new | feat/new/button
-    paths:
-      - '.github/workflows/*'
+    # paths:
+    #   - '.github/workflows/*'
     # paths-ignore:
     #   - '.github/workflows/*'
 jobs:
