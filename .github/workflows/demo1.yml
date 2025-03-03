@@ -10,6 +10,8 @@ on:
       - feat/**  # == feat/new | feat/new/button
     paths:
       - '.github/workflows/*'
+    # paths-ignore:
+    #   - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
